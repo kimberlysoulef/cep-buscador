@@ -6,65 +6,33 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### Início
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O Buscador de CEP em React é um projeto simples e eficiente que permite que os usuários busquem CEPs de endereços do Brasil. Desenvolvido com React, este projeto utiliza a API gratuita do ViaCEP para buscar informações de endereços com base no CEP digitado pelo usuário.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pré-requisitos
 
-### `npm test`
+Para executar este projeto, você precisará ter o Node.js instalado em seu sistema. Você pode baixar o Node.js a partir do site oficial: https://nodejs.org/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalação
 
-### `npm run build`
+Clone o repositório para o seu sistema.
+Abra o terminal na pasta raiz do projeto e execute o comando npm install ou yarn para instalar as dependências do projeto.
+Após a instalação das dependências, execute o comando npm start ou yarn start para iniciar o servidor de desenvolvimento.
+Acesse http://localhost:3000/ em seu navegador para usar o aplicativo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para buscar informações de endereço com base em um CEP, basta digitar o CEP desejado no campo de busca e pressionar a tecla Enter. O aplicativo buscará automaticamente as informações do endereço correspondente ao CEP digitado e exibirá as informações na tela.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Personalização
 
-### `npm run eject`
+Este projeto é facilmente customizável e pode ser adaptado para atender às suas necessidades específicas. Você pode modificar o código-fonte para adicionar novos recursos ou alterar o comportamento existente do aplicativo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Contribuição
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar pull requests para este projeto. Certifique-se de que suas alterações são testadas e que o código está bem documentado antes de enviar uma solicitação de pull.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
