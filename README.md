@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Buscador de CEP em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem vindos ao meu primeiro projeto em React, desenvolvido em abril de 2023! 
 
 ## Available Scripts
 
